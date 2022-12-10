@@ -29,14 +29,19 @@ class Checking:
         
         if user_answer == correct_answer:
             if self.usr == 'teacher':
+                self.score += 1
                 print("Correct answer is: " + str(correct_answer)+ "\n")
-                self.score += 1
+                return(True)
+                
             else:
-                print("Correct!!! \n \n \n")
                 self.score += 1
+                print("Correct!!! \n \n \n")
+                return(True)
+                
         else:
             print("Wrong   :( \n \n \n")
             print("The correct answer is: " + str(correct_answer)+ "\n")
+            return(False)
             
     def check_score(self):
         print("**************************************** ")

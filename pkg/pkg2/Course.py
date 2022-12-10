@@ -24,12 +24,15 @@ class Course(Q.Question,C.Checking):
         
     def append_text(self,question):
         self.question_text = question["question"]
+        return question["question"]
             
     def append_answer(self,question):
         self.question_answer = question["correct_answer"]
+        return question["correct_answer"]
             
     def append_difficulty(self,question):
         self.question_difficulty = question["difficulty"]
+        return question["difficulty"]
     
             
     def append_courseq(self):
