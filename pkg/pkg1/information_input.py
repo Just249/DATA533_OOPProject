@@ -12,16 +12,16 @@ def ID():
 
 # a student
 def major():   
-        n=input("What's your major? ")
+        n=input("What's your major?(optional)")
         return n
 def degree():
-        n=input("Are you an undergraduate or postgraduate?")
+        n=input("Are you an undergraduate or postgraduate?(optional)")
         return n
 # a teacher    
 def research():
-        n=input("what is your research direction?")
+        n=input("what is your research direction?(optional)")
         return n
     
 def length():
-        n=input("How many years since be a tearcher?")
+        n=input("How many years since be a tearcher?(optional)")
         return n
