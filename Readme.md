@@ -1,15 +1,28 @@
 # Function details  and how they work
 
 ## Motivation
-We want to create a quiz apps for the student to test their understanding on the material before taking the actual exam. This application will ask user for the subject(Data533, Data541…) and difficulty (easy, normal, hard, all(default)) that they want to be quized on. And validated their answer by giving feedback to them after every question. Finally the quiz apps will calculate a total marks after finishing all the question in order for them to keep track on their understanding on a specific topic. The application also allows teacher to access the quiz to see what answer is the student being ask and for error checking purpose.
+We want to create a quiz apps for the authoized  student to test their understanding on the material before taking the actual exam. This application will ask user for the subject(Data533, Data541, Data530) and difficulty (easy, normal, hard, all(default)) that they want to be quized on. And validated their answer by giving feedback to them after every question. Finally the quiz apps will calculate a total marks after finishing all the question in order for them to keep track on their understanding on a specific topic. The application also allows teacher to access the quiz to see what question is the student being ask and for error checking purpose.
 ## Package1
-This package will include the personal information input and output. Also, we will divide it into two categories, student and teacher.
+This package will include the personal information input,output and checking. Also, we will divide it into two categories, student and teacher.
 ### Module 1
 In Module 1, we will set functions about **information-input**, such as name, ID. If a student, users need to input their major and degree; if a teacher, users need to input their research direction and teaching length.
+- def group():
+- def name():
+- def ID():
+- def major():   
+- def research():
 ### Module 2
 In Module 2, we will set functions about **information-output**, we use the **inheritance** in this module. The Group will show the common information: name and ID. Inside the Group, there are Student (show additional information about major and degree) and Teacher (show additional information about research and length)
+- class Group: 
+- class Student(Group): 
+- class Teacher(Group): 
+### Module 3
+Checking whether student or teacher in the list, according to their ID
+**Tips:As a testing example, now we only include two ID in the list,"12345" and "54321"**
+-  def __init__(self):
+-  def check_inlist(self, input):
 
-Finally, we need to conclude whether it is a student or a teacher and input and output different type information.
+
 ## Package2
 This sub-package is all about processing question database and contain all the necessary checking function for the question and answer when user input in the quiz apps. This Sub-Package include 3 Module, **Checking**(the brain of the quiz apps), **Question**(for processing database question) and **Course**(appending defaulty to the  database question)
 ### Module 1
