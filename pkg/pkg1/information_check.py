@@ -6,20 +6,16 @@ class Info_Check():
         self.iid = iid
     
     def check_inlist(self):
-        if self.input.lower() in self.list:
+        if self.iid.lower() in self.list:
             return True
         else:
             return False
         
-    def check_name(self):
-        if self.name==null:
+    def check_IsNull(self):
+        if self.name=="":
             return True
         else:
             return False
         
-    def check_ID(self):
-        if self.iid==null:
-            return True
-        else:
-            return False
+
     
