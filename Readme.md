@@ -17,7 +17,7 @@ In Module 2, we will set functions about **information-output**, we use the **in
 - class Student(Group): 
 - class Teacher(Group): 
 ### Module 3
-Checking whether student or teacher in the list, according to their ID
+Checking whether student or teacher is in the list, according to their ID    
 **Tips:As a testing example, now we only include two ID in the list,"12345" and "54321"**
 -  def __init__(self):
 -  def check_inlist(self, input):
