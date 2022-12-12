@@ -27,7 +27,7 @@ class Checking:
 
     def check_answer(self, user_answer, correct_answer):
         
-        if user_answer == correct_answer:
+        if user_answer.lower() == correct_answer:
             if self.usr == 'teacher':
                 self.score += 1
                 print("Correct answer is: " + str(correct_answer)+ "\n")
