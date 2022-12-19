@@ -2,7 +2,7 @@
 
 ## Motivation
 We want to create a quiz apps for the authoized  student to test their understanding on the material before taking the actual exam. This application will ask user for the subject(Data533, Data541, Data530) and difficulty (easy, normal, hard, all(default)) that they want to be quized on. And validated their answer by giving feedback to them after every question. Finally the quiz apps will calculate a total marks after finishing all the question in order for them to keep track on their understanding on a specific topic. The application also allows teacher to access the quiz to see what question is the student being ask and for error checking purpose.
-## Package1
+## Package 1
 This package will include the personal information input,output and checking. Also, we will divide it into two categories, student and teacher.
 ### Module 1
 In Module 1, we will set functions about **information-input**, such as name, ID. If a student, users need to input their major and degree; if a teacher, users need to input their research direction and teaching length.
@@ -24,7 +24,7 @@ Checking whether student or teacher is in the list, according to their ID, and c
 -  def check_IsNull(self):
 
 
-## Package2
+## Package 2
 This sub-package is all about processing question database and contain all the necessary checking function for the question and answer when user input in the quiz apps. This Sub-Package include 3 Module, **Checking**(the brain of the quiz apps), **Question**(for processing database question) and **Course**(appending defaulty to the  database question)
 ### Module 1
 This Module contain ```class Checking: ```, which is the brain of the quizzing apps, it contain all the necessary checking function such as:
@@ -44,7 +44,6 @@ This Module contain ```Course(Question,Checking):``` which is inherited from Che
 - append_answer(self,question) - for appending database’s answer in to its own answer array
 - append_difficulty(self,question) - for appending database’s difficultyin to its own difficulty array
 - append_courseq(self) - for appending database’s question, answer according to the difficulty into 4 different question set array for user to access it after knowing the user difficulty that he/she want to be quiz on.
-
 
 
 
