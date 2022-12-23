@@ -3,83 +3,13 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "a7a1bade-15c1-4c1a-ab02-f83741cb7a71",
+   "id": "150d61d5-12bb-483c-b55b-f948ac8d6b0e",
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "  __    __     _____     ______        ______     __  __     __     ______        ______     ______   ______   ______    \n",
-      " /\\ \"-./  \\   /\\  __-.  /\\  ___\\      /\\  __ \\   /\\ \\/\\ \\   /\\ \\   /\\___  \\      /\\  __ \\   /\\  == \\ /\\  == \\ /\\  ___\\   \n",
-      " \\ \\ \\-./\\ \\  \\ \\ \\/\\ \\ \\ \\___  \\     \\ \\ \\/\\_\\  \\ \\ \\_\\ \\  \\ \\ \\  \\/_/  /__     \\ \\  __ \\  \\ \\  _-/ \\ \\  _-/ \\ \\___  \\  \n",
-      "  \\ \\_\\ \\ \\_\\  \\ \\____-  \\/\\_____\\     \\ \\___\\_\\  \\ \\_____\\  \\ \\_\\   /\\_____\\     \\ \\_\\ \\_\\  \\ \\_\\    \\ \\_\\    \\/\\_____\\ \n",
-      "   \\/_/  \\/_/   \\/____/   \\/_____/      \\/___/_/   \\/_____/   \\/_/   \\/_____/      \\/_/\\/_/   \\/_/     \\/_/     \\/_____/ \n",
-      "\n",
-      "\n"
-     ]
-    },
-    {
-     "name": "stdin",
-     "output_type": "stream",
-     "text": [
-      "Are you are Student or Teacher?  teacher\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "****************************************************************************************************************************\n",
-      "*************************************************** Logged in as Teacher ***************************************************\n",
-      "****************************************************************************************************************************\n"
-     ]
-    },
-    {
-     "name": "stdin",
-     "output_type": "stream",
-     "text": [
-      "What's your name? \n",
-      "What's your ID?  2131\n",
-      "what is your research direction? \n",
-      "How many years since be a tearcher? \n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n",
-      "########################################  User Name Empty, Please Enter Name Again  ########################################\n",
-      "\n"
-     ]
-    },
-    {
-     "name": "stdin",
-     "output_type": "stream",
-     "text": [
-      "What's your name? ds\n",
-      "What's your ID?  54321\n",
-      "what is your research direction? \n",
-      "How many years since be a tearcher? \n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n",
-      "################################\n",
-      "Name:ds ID:54321 \n",
-      "Research:  Length: \n",
-      "################################\n",
-      "\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "data533_q= []\n",
     "data541_q= []\n",
+    "\n",
     "\n",
     "from pkg.pkg1 import information_input as ii\n",
     "from pkg.pkg1 import information_output as io        \n",
@@ -283,30 +213,6 @@
     "        else:\n",
     "            print('User input is empty or the course in not in the list. Please Enter the course number again.')\n"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "6d95b57e-bc97-4afc-9a4b-bfae7b2a27f3",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "bc5d16bd-e176-4372-baa9-b46b45ad0901",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "e680011c-9701-4d19-a1ab-c53ab98a1a33",
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {
